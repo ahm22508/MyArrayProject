@@ -29,16 +29,16 @@ public class Java {
 //                break;
 //            }
 //        }
-Array arr = new Array(5);
-        arr.add(5);
-        arr.add(4);
-        arr.add(3);
-        arr.add(2);
-        arr.add(1);
-        arr.print();
+
+        Array arr = new Array(5);
+        arr.add(52);
+        arr.add(67);
+        arr.add(24);
+        arr.add(89);
+        arr.add(32);
+        arr.Sort();
 
 
-
+        }
 
     }
-}

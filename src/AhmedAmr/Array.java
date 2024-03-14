@@ -6,13 +6,14 @@ public class Array {
     private int[] Arrayedora;
     private int contadora;
 
+
     public Array(int longitud) {
         Arrayedora = new int[longitud];
     }
 
     public void print() {
         for (int i = 0; i < contadora; i++)
-        System.out.println(Arrayedora[i]);
+            System.out.println(Arrayedora[i]);
     }
 
     public void add(int NewValue) {
@@ -40,5 +41,17 @@ public class Array {
                 System.out.println(i);
     }
 
+    public void Sort() {
+        for (int i = 0; i < Arrayedora.length; i++) {
+            for (int j = i + 1; j < Arrayedora.length; j++) {
+                int tmp = 0;
+                if (Arrayedora[i] > Arrayedora[j]) {
+                    tmp = Arrayedora[i];
+                    Arrayedora[i] = Arrayedora[j];
+                    Arrayedora[j] = tmp;
+                }
+            }
+            System.out.println(Arrayedora[i]);
+        }
+    }
 }
-
