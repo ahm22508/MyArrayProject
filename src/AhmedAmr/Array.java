@@ -60,6 +60,16 @@ public class Array {
         }
         System.out.println(Arrays.toString(Arrayedora));
     }
+    public void AutomaticFill(int limit1, int limit2, int NewElement){
+        for(int i = 0; i < Arrayedora.length; i++){
+            if (limit1 == i){
+                for (int n = i; n < limit2 +1; n++)
+                Arrayedora[n]=NewElement;
+            }
+        }
+        System.out.println(Arrays.toString(Arrayedora));
+    }
 }
+
 
 

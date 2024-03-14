@@ -30,19 +30,20 @@ public class Java {
             }
         }
 
-        Array arrita = new Array(5);
+        Array arrita = new Array(8);
         arrita.add(52);
         arrita.add(67);
         arrita.add(24);
         arrita.add(89);
         arrita.add(32);
+        arrita.add(99);
+        arrita.add(100);
+        arrita.add(101);
         arrita.Fill(10);
         arrita.Sort();
         arrita.print();
         arrita.RemoveFrom(2);
         arrita.IndexOF(4);
-
-
+        arrita.AutomaticFill(0,4,10);
         }
-
     }
