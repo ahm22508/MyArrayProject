@@ -30,13 +30,13 @@ public class Java {
 //            }
 //        }
 
-        Array arr = new Array(5);
-        arr.add(52);
-        arr.add(67);
-        arr.add(24);
-        arr.add(89);
-        arr.add(32);
-        arr.Sort();
+        Array arrita = new Array(5);
+        arrita.add(52);
+        arrita.add(67);
+        arrita.add(24);
+        arrita.add(89);
+        arrita.add(32);
+        arrita.Fill(10);
 
 
         }
