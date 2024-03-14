@@ -37,6 +37,10 @@ public class Java {
         arrita.add(89);
         arrita.add(32);
         arrita.Fill(10);
+        arrita.Sort();
+        arrita.print();
+        arrita.RemoveFrom(2);
+        arrita.IndexOF(4);
 
 
         }

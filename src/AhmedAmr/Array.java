@@ -52,21 +52,14 @@ public class Array {
                 }
             }
             System.out.println(Arrayedora[i]);
-
-
         }
-
-
-
         }
-
         public void Fill(int FillNewElement){
         for(int i = 0; i < Arrayedora.length; i++){
             Arrayedora[i]=FillNewElement;
         }
-            System.out.println(Arrays.toString(Arrayedora));
+        System.out.println(Arrays.toString(Arrayedora));
     }
-
-    }
+}
 
 
