@@ -45,5 +45,6 @@ public class Java {
         arrita.RemoveFrom(2);
         arrita.IndexOF(4);
         arrita.AutomaticFill(0,4,10);
+
         }
     }
