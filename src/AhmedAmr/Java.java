@@ -5,46 +5,20 @@ import java.util.Scanner;
 
 
 public class Java {
-    public static void main(String[] args) {
-        System.out.println("Hello🖐️... enter your four arithmetic operations, please...");
-        for (int x = 0; x < 4; x++) {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("enter your first number...");
-            int val1 = scanner.nextInt();
-            System.out.println("enter your second number...");
-            int val2 = scanner.nextInt();
-            System.out.println("enter your arithmetic operator...");
-            String val3 = scanner.next();
 
-            if (val3.equals("+")) {
-                System.out.println("(" + "'" + val3 + "'" + "," + val1 + "," + val2 + ")" + "--> " + (val1 + val2));
-            } else if (val3.equals("-")) {
-                System.out.println("(" + "'" + val3 + "'" + "," + val1 + "," + val2 + ")" + "--> " + (val1 - val2));
-            } else if (val3.equals("*")) {
-                System.out.println("(" + "'" + val3 + "'" + "," + val1 + "," + val2 + ")" + "--> " + (val1 * val2));
-            } else if (val3.equals("/")) {
-                System.out.println("(" + "'" + val3 + "'" + "," + val1 + "," + val2 + ")" + "--> " + (val1 / val2));
-            } else {
-                System.out.println("incorrect entry. The program will shut down. you can Try again... Thanks 😊 ");
-                break;
-            }
-        }
+public static void main (String[]args){
+ double x = System.currentTimeMillis();
+ Java java = new Java();
+ java.EvenArray(6);
+    System.out.println(System.currentTimeMillis() - x);
 
-        Array arrita = new Array(8);
-        arrita.add(52);
-        arrita.add(67);
-        arrita.add(24);
-        arrita.add(89);
-        arrita.add(32);
-        arrita.add(99);
-        arrita.add(100);
-        arrita.add(101);
-        arrita.Fill(10);
-        arrita.Sort();
-        arrita.print();
-        arrita.RemoveFrom(2);
-        arrita.IndexOF(4);
-        arrita.AutomaticFill(0,4,10);
+    }
+
+    public void EvenArray(int Length) {
+        for (int i =0; i < Length;  i++){
+            System.out.println(Length);
 
         }
     }
+}
+
